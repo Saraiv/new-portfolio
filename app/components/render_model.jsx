@@ -3,9 +3,9 @@ import { Environment } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 import { Suspense } from "react"
 
-const RenderModel = ({ children, className }) => {
+const RenderModel = ({ children, classname }) => {
     return (
-        <Canvas className={`w-screen h-screen -z-10 relative ${className}`}>
+        <Canvas className={`w-screen h-screen -z-10 relative ${classname}`}>
             <Suspense fallback={null}>
                 {children}
             </Suspense>
