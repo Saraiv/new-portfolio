@@ -20,9 +20,6 @@ const config: Config = {
       fontSize: {
         title: "20rem"
       },
-      textColor: {
-        "txt-foreground": "rgb(var(--background))",
-      },
     },
   },
   plugins: [],

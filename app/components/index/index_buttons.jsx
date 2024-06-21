@@ -32,10 +32,10 @@ const IndexButtons = ({ x, y, label, link, icon, newTab }) => {
     return (
         <div className="absolute cursor-pointer z-50" style={{ transform: `translate(${x}, ${y})` }}>
             <Link href={`${link}`} target={newTab ? "_blank" : "_self"} className="text-foreground rounded-full flex items-center justify-center bg-background/20 border border-accent border-solid backdrop-blur-[10px] shadow-glass-inset" aria-label={label} name={label}>
-                <span className="relative peer w-14 h-14 p-4 group-hover:text-txt-foreground">
+                <span className="relative peer w-14 h-14 p-4 group-hover:text-foreground">
                     {getIcon(icon)}
                 </span>
-                <span className="absolute hidden peer-hover:block px-2 py-1 left-full mx-2 top-1/2 -translate-y-1/2 bg-background text-txt-foreground text-sm rounded-md shadow-lg whitespace-nowrap">
+                <span className="absolute hidden peer-hover:block px-2 py-1 left-full mx-2 top-1/2 -translate-y-1/2 bg-background text-foreground text-sm rounded-md shadow-lg whitespace-nowrap">
                     {label}
                 </span>
             </Link>

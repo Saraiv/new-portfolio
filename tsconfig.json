@@ -36,9 +36,9 @@
     "app/pages/projects.jsx",
     "app/pages/contact.jsx",
     "app/pages/about.jsx",
-    "app/components/render_model.jsx",
-    "app/components/index_buttons.jsx",
-    "app/components/circular_menu.jsx",
+    "app/components/Index/render_model.jsx",
+    "app/components/Index/index_buttons.jsx",
+    "app/components/Index/circular_menu.jsx",
   ],
   "exclude": [
     "node_modules"

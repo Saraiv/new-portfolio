@@ -1,6 +1,6 @@
 import { Avatar } from "@/public/models/My_model"
-import RenderModel from "@/app/components/render_model"
-import CircularMenu from "@/app/components/circular_menu"
+import RenderModel from "@/app/components/index/render_model"
+import CircularMenu from "@/app/components/index/circular_menu"
 
 const Home = () => {
   return (

@@ -1,5 +1,5 @@
 import { buttons_list, full_angle, half_angle } from "@/app/helpers/data"
-import IndexButtons from "@/app/components/index_buttons"
+import IndexButtons from "@/app/components/index/index_buttons"
 
 const CircularMenu = () => {
     const angle = full_angle / buttons_list.length
